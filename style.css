@@ -1,0 +1,154 @@
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    width: 900px !important;
+}
+
+.container-fluid{
+    height: 70vh;
+    background-color: #212529;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.poet-name{
+    color: white;
+}
+
+.poet-small-desc{
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.first-height-manage{
+    line-height: 50px;
+}
+
+.container{
+    width: 70% !important;
+}
+
+.kazipoet{
+    width: 300px;
+    height: 400px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+    padding-top: 10px;
+}
+
+.grey-btn{
+    background-color: #E0E1E2;
+    color: rgb(43, 43, 43);
+    border-radius: 0;
+    border-style: none;
+}
+
+.red-btn{
+    background-color: #DB2828;
+    color: #E0E1E2;
+    border-radius: 0;
+    border-style: none;
+}
+
+.yellow-btn{
+    background-color: #F2711C;
+    color: #E0E1E2;
+    border-radius: 0;
+    border-style: none;
+}
+
+.quote-bg{
+    background-color: #212529;
+    color: white;
+    height: 200px;
+}
+
+.awards-section{
+    padding-top: 50px;
+}
+
+.horizontal-line{
+    overflow: hidden;
+    text-align: center;
+}
+  
+.horizontal-line:before,
+.horizontal-line:after {
+background-color: rgb(179, 176, 176);
+content: "";
+display: inline-block;
+height: 1px;
+position: relative;
+vertical-align: middle;
+width: 50%;
+}
+  
+.horizontal-line:before {
+right: 1em;
+margin-left: -50%;
+}
+  
+.horizontal-line:after {
+left: 1em;
+margin-right: -50%;
+}
+
+.award-details{
+    border: 2px solid rgb(189, 188, 188);
+    border-radius: 4px;
+    width: 300px;
+    padding: 7px;
+}
+
+.awards-row{
+    display: flex !important;
+    justify-content: center !important;
+    width: 100%;
+}
+
+.award-name{
+    color: #262626;
+}
+
+.year{
+    color: gray;
+    font-weight: 700px;
+}
+
+.award-desc{
+    color: rgb(29, 29, 29);
+    line-height: 20px;
+}
+
+.manage-line-height{
+    line-height: 19px;
+}
+
+.custom-color{
+    color: rgb(54, 54, 54);
+}
+
+.footer{
+    background-color: #212529;
+    height: 10%;
+    color: white;
+    padding: 110px;
+}
+
+span{
+    color: rgb(141, 140, 140);
+}
